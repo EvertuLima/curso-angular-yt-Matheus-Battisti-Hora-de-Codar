@@ -1,0 +1,11 @@
+<div class="class">
+    <p *ngIf="show">Exibindo mensagem!</p>
+    <!-- <button (click)="showMessage()">Clique em mim</button> -->
+    <input 
+    type="text" 
+    name="" 
+    id="inp001" 
+    placeholder="escreva e der enter" 
+    (keyup.enter)="showMessage(campo001)"
+    #campo001>
+</div>
