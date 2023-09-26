@@ -9,8 +9,8 @@ export class AppComponent {
   userName:string = 'Jack';
   userAge:number = 12;
   userData = {
-    email: 'jack@email.com',
-    role: 'Admin'
+    email12: 'jack@email.com',
+    role12: 'Admin'
   }
   title = 'curso-angular';
 }

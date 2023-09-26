@@ -7,9 +7,9 @@ import { Component, Input } from '@angular/core';
 })
 export class ParentDataComponent {
 
-  @Input() name: string = '';
-  @Input() age = 0
-  @Input() userData!: {email:string; role:string};
+  @Input() name1: string = '';
+  @Input() age1 = 0
+  @Input() userData1!: {email12:string; role12:string};
 
 
 
