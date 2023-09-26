@@ -1,7 +1,19 @@
 <p>header</p>
 <nav>
-    <a routerLink="/">Home</a><br>
-    <a routerLink="/list">Lista</a>
+
+    <div style="display: flex;">
+        <a routerLink="/" style="margin-left: 20px;">Home</a><br>
+        <a routerLink="/parent-data" style="margin-left: 20px;">Parent Data</a>
+        <a routerLink="/directives" style="margin-left: 20px;">Directives</a>
+        <a routerLink="/if-render" style="margin-left: 20px;">If-render</a>
+        <a routerLink="/eventos" style="margin-left: 20px;">Eventos</a>
+        <a routerLink="/emitter" style="margin-left: 20px;">Emitter</a>
+        <a routerLink="/list" style="margin-left: 20px;">Lista</a>
+        <a routerLink="/pipes" style="margin-left: 20px;">Pipes</a>
+        <a routerLink="/two-way" style="margin-left: 20px;">Two Way Data Binding</a>
+
+    </div>
+    
 </nav>
 <h1>Hello World Angular!</h1>
 <router-outlet></router-outlet>
