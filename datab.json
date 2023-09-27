@@ -1,0 +1,9 @@
+{
+    "pessoas":[
+        { "id": 1, "name": "Tom", "role": "Médico", "age": 29 },
+        { "id": 2, "name": "Leo", "role": "Palhaço", "age": 24 },
+        { "id": 3, "name": "Flora", "role": "Atriz", "age": 34 },
+        { "id": 4, "name": "Bob", "role": "Cozinheiro", "age": 46 },
+        { "id": 5, "name": "Mara", "role": "Advogada", "age": 60 }
+    ]
+}

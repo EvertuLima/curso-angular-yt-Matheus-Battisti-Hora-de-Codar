@@ -10,6 +10,7 @@ import { EventosComponent } from './components/eventos/eventos.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { PessoasComponent } from './components/pessoas/pessoas.component';
 
 const routes: Routes = [
   {path: '', component: FirstComponentComponent},
@@ -21,6 +22,7 @@ const routes: Routes = [
   {path: 'list', component: ListRenderComponent},
   {path: 'pipes', component: PipesComponent},
   {path: 'two-way', component: TwoWayBindingComponent},
+  {path: 'pessoas', component: PessoasComponent},
 
 ];
 
