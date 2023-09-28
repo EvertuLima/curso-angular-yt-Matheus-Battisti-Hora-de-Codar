@@ -12,11 +12,12 @@ export class ListRenderComponent {
 
   animals: Animal[] = [];
 
-  animal: Animal = {
-    name: 'Teste',
-    type: 'Algo',
-    age: 1
-  }
+  // animal: Animal = {
+  //   id: 1,
+  //   name: 'Teste',
+  //   type: 'Algo',
+  //   age: 1
+  // }
 
   animalDetails = ''
 

@@ -19,6 +19,7 @@ import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { FormsModule } from '@angular/forms';
 import { PessoasComponent } from './components/pessoas/pessoas.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { PessoasComponent } from './components/pessoas/pessoas.component';
     ListRenderComponent,
     PipesComponent,
     TwoWayBindingComponent,
-    PessoasComponent
+    PessoasComponent,
+    ItemDetailComponent
   ],
   imports: [
     BrowserModule,
